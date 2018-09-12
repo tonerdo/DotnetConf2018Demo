@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5EEEFA2-672
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetConf2018Demo.Lib", "src\DotnetConf2018Demo.Lib\DotnetConf2018Demo.Lib.csproj", "{6C2BC547-74AA-4136-A3EE-B45B030D0267}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FC178C5A-0DE0-4BEF-9046-CE5AE7A18FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetConf2018Demo.Tests", "test\DotnetConf2018Demo.Tests\DotnetConf2018Demo.Tests.csproj", "{E055A26D-39E0-4E95-A554-49B8018D6F31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,21 @@ Global
 		{6C2BC547-74AA-4136-A3EE-B45B030D0267}.Release|x64.Build.0 = Release|Any CPU
 		{6C2BC547-74AA-4136-A3EE-B45B030D0267}.Release|x86.ActiveCfg = Release|Any CPU
 		{6C2BC547-74AA-4136-A3EE-B45B030D0267}.Release|x86.Build.0 = Release|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Debug|x64.Build.0 = Debug|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Debug|x86.Build.0 = Debug|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Release|x64.ActiveCfg = Release|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Release|x64.Build.0 = Release|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Release|x86.ActiveCfg = Release|Any CPU
+		{E055A26D-39E0-4E95-A554-49B8018D6F31}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6C2BC547-74AA-4136-A3EE-B45B030D0267} = {E5EEEFA2-672E-4469-A2E9-6FFF9E0C1C64}
+		{E055A26D-39E0-4E95-A554-49B8018D6F31} = {FC178C5A-0DE0-4BEF-9046-CE5AE7A18FF7}
 	EndGlobalSection
 EndGlobal
