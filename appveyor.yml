@@ -9,4 +9,4 @@ build_script:
   - ps: echo "Building for $env:CONFIGURATION"
   - ps: dotnet build
 test_script:
-  - ps: dotnet test /p:CollectCoverage=true
+  - ps: dotnet test ./test/DotnetConf2018Demo.Tests/DotnetConf2018Demo.Tests.csproj /p:CollectCoverage=true
