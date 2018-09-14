@@ -2,7 +2,7 @@ version: '{build}'
 image:
   - Visual Studio 2015
   - Ubuntu
-configureation:
+configuration:
   - Debug
   - Release
 build_script:
