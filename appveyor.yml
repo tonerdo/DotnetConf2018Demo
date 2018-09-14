@@ -1,0 +1,12 @@
+version: '{build}'
+image:
+  - Visual Studio 2015
+  - Ubuntu
+configureation:
+  - Debug
+  - Release
+build_script:
+  - ps: echo "Building for $env:CONFIGURATION"
+  - ps: dotnet build
+test_script:
+  - ps: dotnet test /p:CollectCoverage=true
