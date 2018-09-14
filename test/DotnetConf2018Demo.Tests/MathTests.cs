@@ -8,19 +8,19 @@ namespace DotnetConf2018Demo.Tests
         [Fact]
         public void TestAdd()
         {
-            Assert.Equal(Math.Add(10, 10), 20);
+            Assert.Equal(20, Math.Add(10, 10));
         }
 
         [Fact]
         public void TestSub()
         {
-            Assert.Equal(Math.Sub(10, 10), 0);
+            Assert.Equal(0, Math.Sub(10, 10));
         }
 
         [Fact]
         public void TestMul()
         {
-            Assert.Equal(Math.Mul(10, 10), 100);
+            Assert.Equal(100, Math.Mul(10, 10));
         }
     }
 }

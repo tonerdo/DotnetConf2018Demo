@@ -11,6 +11,9 @@ namespace DotnetConf2018Demo.Lib
 
         public static int Sub(int a, int b)
         {
+            if (b == 0)
+                return 0;
+
             return a - b;
         }
 
